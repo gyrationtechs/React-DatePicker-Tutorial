@@ -49,7 +49,7 @@ const Blog = () => {
                         // maxDate={addDays(new Date(), -5)}
                     />
                 </div>
-                <input type="submit" className="submitBtn" value="Post" />
+                <button type="submit" className="submitBtn">Post</button>
             </form>
         </div>
     )
